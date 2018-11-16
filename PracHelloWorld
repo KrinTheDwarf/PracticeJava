@@ -1,0 +1,16 @@
+echo "# dice-java" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jmose27/dice-java.git
+git push -u origin master
+
+
+public class Main {
+  
+  public static void(String[] args) {
+  
+    System.out.println("Hello, World!");
+  }
+}
+
